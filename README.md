@@ -10,7 +10,9 @@ Original instructions for setting this up can be found there.
 
 ### Versioning
 
-To workaround Nuget's stricter semver checks, the versions are laid out in this format:
+To workaround Nuget's semver checks not allowing strings, the versions used are a bit different.
+
+Any patch letter being used will be converted into a number, with no suffix dash, as such:
 
 * Game Version: Beta 1.5.0c
-* Nuget Version 1.5.0-c
+* Nuget Version 1.5.03
