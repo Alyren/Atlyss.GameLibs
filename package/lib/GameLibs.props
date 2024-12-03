@@ -30,14 +30,8 @@
         <Reference Include="Mono.Security">
             <HintPath>$(GameLibsOutputDirectory)\Mono.Security.dll</HintPath>
         </Reference>
-        <Reference Include="mscorlib">
-            <HintPath>$(GameLibsOutputDirectory)\mscorlib.dll</HintPath>
-        </Reference>
         <Reference Include="NavMeshComponents">
             <HintPath>$(GameLibsOutputDirectory)\NavMeshComponents.dll</HintPath>
-        </Reference>
-        <Reference Include="netstandard">
-            <HintPath>$(GameLibsOutputDirectory)\netstandard.dll</HintPath>
         </Reference>
         <Reference Include="Newtonsoft.Json">
             <HintPath>$(GameLibsOutputDirectory)\Newtonsoft.Json.dll</HintPath>
